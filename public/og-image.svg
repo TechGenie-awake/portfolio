@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="glow" cx="15%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- subtle grid accent -->
+  <g stroke="#1a1a1a" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="550" x2="1200" y2="550"/>
+  </g>
+
+  <!-- G. mark top-left -->
+  <g transform="translate(80, 60)">
+    <rect width="56" height="56" rx="12" fill="#f5f5f5"/>
+    <text
+      x="28"
+      y="42"
+      font-family="Syne, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif"
+      font-size="34"
+      font-weight="800"
+      fill="#0a0a0a"
+      text-anchor="middle"
+      letter-spacing="-1.5"
+    >G.</text>
+  </g>
+
+  <!-- PORTFOLIO label -->
+  <text
+    x="80"
+    y="215"
+    font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif"
+    font-size="18"
+    font-weight="500"
+    fill="#888"
+    letter-spacing="4"
+  >PORTFOLIO</text>
+
+  <!-- Name -->
+  <text
+    x="80"
+    y="360"
+    font-family="Syne, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif"
+    font-size="128"
+    font-weight="800"
+    fill="#f5f5f5"
+    letter-spacing="-5"
+  >Gayatri Jaiswal</text>
+
+  <!-- Roles -->
+  <text
+    x="80"
+    y="440"
+    font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif"
+    font-size="26"
+    font-weight="600"
+    fill="#f5f5f5"
+    letter-spacing="2"
+  >Full-Stack <tspan fill="#555">/</tspan> Frontend <tspan fill="#555">/</tspan> Mobile App Developer</text>
+
+  <!-- Tagline -->
+  <text
+    x="80"
+    y="500"
+    font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif"
+    font-size="22"
+    font-weight="400"
+    fill="#888"
+  >I design and build impactful, user-focused applications.</text>
+
+  <!-- Footer strip -->
+  <text
+    x="80"
+    y="590"
+    font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif"
+    font-size="16"
+    font-weight="500"
+    fill="#444"
+    letter-spacing="3"
+  >AVAILABLE FOR WORK</text>
+
+  <text
+    x="1120"
+    y="590"
+    font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif"
+    font-size="16"
+    font-weight="500"
+    fill="#444"
+    letter-spacing="3"
+    text-anchor="end"
+  >2026</text>
+</svg>
