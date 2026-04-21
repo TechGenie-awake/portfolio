@@ -21,7 +21,7 @@ export default function Hero() {
           </span>
         </div>
         <h1 className="hero-name">
-          <span className="line"><span className="word">G. Jaiswal</span></span>
+          <span className="line"><span className="word">Gayatri Jaiswal</span></span>
         </h1>
         <p className="hero-description">
           <span className="line"><span className="word">I design and build impactful, user-focused applications —</span></span>
